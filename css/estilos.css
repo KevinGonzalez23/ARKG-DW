@@ -278,6 +278,16 @@ header{
     grid-column: 3;
 }
 
+input {
+    width: 100px; height: 100px;
+    transition: all 2s;       
+}
+ input:focus {
+    width: 200px;
+    font-size: 24px;
+}
+ 
+
 
 
 
