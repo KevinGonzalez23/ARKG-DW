@@ -1,0 +1,286 @@
+/* voy a usar mas flex y grid para que me quede como los wireframes */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 1rem 0.5rem; 
+    display: flex; 
+}
+
+.header__logo {
+    display: flex;
+    justify-content: flex-start;
+    height: 200px;
+    width: 200px;
+}
+
+.header__navegacion{
+	display: flex;
+    width: 100%;
+	margin: 30px auto;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', serif;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 20px;
+    
+}
+
+.nav__menu ul{
+    display: flex;
+    list-style: none;
+} 
+
+.nav__menu > li{
+    position: relative;
+	display: inline-block;
+    
+}
+
+.nav__menu > li > a{
+    display: flex;
+	padding: 15px 20px;
+	color: #226d70;
+	text-decoration: none;
+    font-weight: bold;
+}
+
+.nav__menu li a:hover{
+	color: black;
+}
+
+/* Texto grande */
+.hero__text1 h1{
+    display: flex;
+    padding: 1rem 0.5rem; 
+	margin-left: 161px;
+    margin-right: 161px;
+    margin-top: 44px;
+    margin-bottom: 48px;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+/* imagen principal */
+.hero__img img{
+    height: 50rem;
+    width: 114rem;
+}
+
+/* titulo y texto de trabajo */
+.hero__text2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.p1{
+    font-family: 'Montserrat', serif;
+    margin: 1rem;
+    padding: 1rem;
+    margin-left: 161px;
+    margin-right: 161px;
+    font-size: 40px ;
+}
+
+.p2 {
+    font-size: 30px; 
+    padding: 1rem;
+    margin-left: 161px;
+    margin-right: 161px;
+}
+
+/* 2 columnas de 4 imagenes con su titulo */
+
+.contenedorProyectos {
+    width: 90%;
+    margin-left: 161px;
+    padding: 80px 0;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 100px;
+}
+
+.card img{
+    border-radius: 20px;
+    height: 652px;
+    width: 704px;
+    font-weight: bold;  
+    background-size: cover;
+    background-position: center center;
+}
+
+.card .titulo{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+/* TRABAJEMOS JUNTOS */
+
+.hero__trabajemosJuntos{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 6%, rgba(9,9,121,1) 26%, rgba(0,212,255,1) 84%);
+    margin-top: 2rem;
+    height: 40rem;
+    width: 114rem;
+    font-family:'Montserrat', serif;
+}
+
+.trabajemosJuntos__titulo{
+    color:white;
+    font-size: 50px;
+    margin-left: 175px;
+    margin-right: 161px;
+    margin-top: 20rem;
+    padding-top: 70px;
+}
+
+.hero__trabajemosJuntos p{
+    
+    color:white;
+    margin-left: 175px;
+    margin-right: 161px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 30px;
+}
+
+.hero__trabajemosJuntos3{
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+    margin-left: 175px;
+    margin-right: 161px;
+    padding: 25px;
+    font-size: 30px;
+    background-color: rgb(156, 154, 149);
+    
+}
+
+/* FOOTER */
+
+.contenedorFooter{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.arriba{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.descripcionFooter{
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+}
+
+.descripcionFooter a{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    height: 200px;
+    width: 200px;
+}
+
+.descripcionFooter .footer__text{
+    display: inline-block;
+    margin: 2rem;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.contenedorFooter .redes{
+    display: flex;
+    width: 50%;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.contenedorFooter .text__centrado{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+/* Quienes Somos */
+
+.contenedorText{
+    display: flex;
+    margin-top: 30px;
+}
+
+.text{
+    margin-bottom: 40px;
+}
+
+.contenedorTitulo{
+    width: 100%;
+    flex: 50%;
+    margin-left: 167px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contenedorTexto{
+    width: 100%;
+    font-size: 25px;
+    margin-right: 96px;
+    letter-spacing: 2px;
+}
+
+.contTexto{
+    margin-bottom: 40px;
+}
+
+
+/* Nuestro equipo */
+
+.contenedorGeneral{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    align-items: center;
+    grid-column-gap: 40px;
+    margin-top: 50px;
+}
+
+.contenedorPersona1{
+    grid-column: 2;
+}
+
+.contenedorPersona1 img{
+    height: 451px;
+    width: 554px;
+}
+
+.Persona__titulo{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.Persona__texto{
+    font-size: 20px;
+}
+
+/* Contacto */
+
+.cont__derecha{
+    margin-left: 167px;
+}
+
+.cont__izquierda{
+    grid-column: 3;
+}
+
+
+
+
+
+
+/*MEDIA QUERIES*/
