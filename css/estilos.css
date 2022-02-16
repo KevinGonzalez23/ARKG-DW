@@ -121,7 +121,7 @@ header{
 /* TRABAJEMOS JUNTOS */
 
 .hero__trabajemosJuntos{
-    background: linear-gradient(90deg, rgba(2,0,36,1) 6%, rgba(9,9,121,1) 26%, rgba(0,212,255,1) 84%);
+    background: black;
     margin-top: 2rem;
     height: 40rem;
     width: 114rem;
@@ -286,11 +286,5 @@ input {
     width: 200px;
     font-size: 24px;
 }
- 
-
-
-
-
-
 
 /*MEDIA QUERIES*/
