@@ -99,7 +99,12 @@
 
 /* 2 columnas de 4 imagenes con su titulo */
 
-.contenedorProyectos {
+.contenedorImagenes{
+    margin-left: 8.0625rem;
+}
+
+
+/* .contenedorProyectos {
     width: 90%;
     margin-left: 8.0625rem;
     padding: 5rem 0;
@@ -107,7 +112,7 @@
     grid-template-columns: 2fr 2fr;
     gap: 6.25rem;
 }
-
+ */
 .card{
     border: none;
 }
@@ -247,6 +252,10 @@
 
 
 /* Nuestro equipo */
+.img-carruselFade{
+    height: 100vh;
+    object-fit:cover;
+}
 
 .contenedorGeneral{
     display: grid;
@@ -278,24 +287,39 @@
 
 /* Contacto */
 
+.contenedorGeneralC{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+    grid-column-gap: 2.5rem;
+    margin-top: 3.125rem;
+}
+
 .cont__derecha{
     margin-left: 10.4375rem;
 }
 
-.cont__izquierda{
+form{
     grid-column: 3;
-}
-
-input {
-    display: flex;
-    justify-content: center;
-    width: 18.75rem; height: 6.25rem;
-    transition: all 2s; 
-
 }
  input:focus {
     width: 12.5rem;
     font-size: 1.6rem;
 }
 
+.hero__trabajemosJuntos1{
+    font-size: 3.125rem;
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
+}
+
+.hero__trabajemosJuntos2{
+    font-size: 1.5625rem;
+    font-weight: lighter;
+}
+
+.description{
+    font-size: 1.5625rem;
+}
 /*MEDIA QUERIES*/
