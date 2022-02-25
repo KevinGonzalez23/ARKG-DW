@@ -117,6 +117,10 @@
     border: none;
 }
 
+.row{
+    margin-right: 0;
+}
+
 .card img{
     border-radius: 1.25rem;
     height: 39.0625rem;

@@ -1,0 +1,45 @@
+.header{
+    padding: 1rem 0.5rem; 
+    display: flex; 
+    &__logo {
+        display: flex;
+        justify-content: flex-start;
+        height: 12.5rem;
+        width: 12.5rem;
+    }
+    
+    &__navegacion{
+        display: flex;
+        width: 100%;
+        margin: 1.875rem auto;
+        letter-spacing: 2px;
+        font-family: 'Montserrat', serif;
+        align-items: center;
+        justify-content: flex-end;
+        font-size: 1.25rem;
+        
+    }
+    
+    .nav__menu ul{
+        display: flex;
+        list-style: none;
+    } 
+    
+    .nav__menu > li{
+        position: relative;
+        display: inline-block;
+        
+    }
+    
+    .nav__menu > li > a{
+        display: flex;
+        padding: 0.9375rem 1.25rem;
+        color: #226d70;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .nav__menu li a:hover{
+        color: black;
+    }
+}

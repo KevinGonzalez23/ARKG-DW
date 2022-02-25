@@ -1,0 +1,45 @@
+
+.contenedorFooter{
+    display: flex;
+    flex-flow: column wrap;
+    .arriba{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        .descripcionFooter{
+            display: flex;
+            flex-flow: column wrap;
+            width: 50%;
+        }
+        .descripcionFooter a{
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 2rem;
+            height: 12.5rem;
+            width: 12.5rem;
+        }
+        .descripcionFooter .footer__text{
+            display: inline-block;
+            margin: 2rem;
+            font-size: 1.25rem;
+            letter-spacing: 0.125rem;
+        }
+    }
+    & .redes{
+        display: flex;
+        width: 50%;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    & .text__centrado{
+        display: flex;
+        justify-content: center;
+        font-size: 1.25rem;
+    }
+}
+
+
+
+
