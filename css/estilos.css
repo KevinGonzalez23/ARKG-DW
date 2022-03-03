@@ -119,6 +119,7 @@
 
 .row{
     margin-right: 0;
+    --bs-gutter-x: 0;
 }
 
 .card img{
@@ -288,6 +289,30 @@
 .Persona__texto{
     font-size: 1.25rem;
 }
+/* Prensa */
+.img-fluid{
+    height: 40rem;
+    width: 114rem;
+}
+
+.img-fluid .trabajemosJuntos__titulo{
+    color:white;
+    font-size: 3.125rem;
+    margin-left: 10.9375rem;
+    margin-right: 10.0625rem;
+    margin-top: 20rem;
+    padding-top: 4.375rem;
+}
+
+.img-fluid  p{
+    
+    color:white;
+    margin-left: 10.9375rem;
+    margin-right: 10.0625rem;
+    margin-top: 3.125rem;
+    margin-bottom: 6.25rem;
+    font-size: 1.875rem;
+}
 
 /* Contacto */
 
@@ -373,6 +398,50 @@ form{
         margin-left: 3.4375rem;
     }
 
+    /* prensa */
+    .img-fluid{
+        
+        width: auto;
+    }
+    
+    .img-fluid .trabajemosJuntos__titulo{
+        font-size: 3.125rem;
+        margin-left: 5rem;
+    }
+    
+    .img-fluid  p{
+        
+        margin-left: 5rem;
+        margin-bottom: 6.25rem;
+        font-size: 1.5rem;
+    }
+    /* contacto */
+    .contenedorGeneralC{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        align-items: center;
+        grid-column-gap: 2.5rem;
+        margin-top: 3.125rem;
+    }
+    .cont__derecha{
+        margin-left: 2.4375rem;
+        text-align: center;
+    }
+    .cont__derecha .description{
+        text-align: center;
+        
+        
+    }
+
+    .cont__izquierda{
+        margin-top: 8rem;
+    }
+
+    hr:not([size]) {
+        height: 1px;
+        margin-left: -3rem;
+    }
 }
 
 
