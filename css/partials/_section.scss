@@ -1,0 +1,31 @@
+.row{
+    --bs-gutter-x: 0;
+}
+.img-carrusel{
+    height: 95vh;
+    object-fit:cover;
+}
+.section__text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.tituloC{
+    font-family: 'Montserrat', serif;
+    margin: 1rem;
+    padding: 1rem;
+    margin-left: 10.0625rem;
+    margin-right: 10.0625rem;
+    font-size: 3.5rem ;
+    font-weight: bold;
+}
+
+.textC {
+    font-size: 1.875rem;  
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-left: 10.0625rem;
+    margin-right: 10.0625rem;
+}
