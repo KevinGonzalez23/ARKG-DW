@@ -115,6 +115,7 @@
  */
 .card{
     border: none;
+    margin-left: 2rem;
 }
 
 .row{
@@ -376,12 +377,15 @@ form{
         margin-left: 2.0625rem;
         margin-right: 2.0625rem;
     }
+
     /* proyectos */
     .contenedorImagenes{
         justify-items: center;
         margin: auto;
     } 
-    
+    .card {
+        margin-left: 1rem;
+    }
     
     .hero__trabajemosJuntos {
         height: 50rem;
@@ -433,7 +437,7 @@ form{
         margin-top: 3.125rem;
     }
     .cont__derecha{
-        margin-left: 2.4375rem;
+        margin-left: -0.5625rem;
         text-align: center;
     }
     .cont__derecha .description{
