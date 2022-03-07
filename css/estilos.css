@@ -125,7 +125,7 @@
 
 .card img{
     border-radius: 1.25rem;
-    height: 39.0625rem;
+    height: 44.0625rem;
     width: 44rem;
     font-weight: bold;  
     background-size: cover;
@@ -142,9 +142,6 @@
     color:rgb(0, 0, 0)
 }
 
-.card-body a:hover{
-    color: rgb(21, 205, 230);
-}
 /* TRABAJEMOS JUNTOS */
 
 .hero__trabajemosJuntos{
