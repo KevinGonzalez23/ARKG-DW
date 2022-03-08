@@ -148,7 +148,6 @@
     background: black;
     margin-top: 2rem;
     height: 40rem;
-    width: 114rem;
     font-family:'Montserrat', serif;
 }
 
@@ -450,6 +449,16 @@ form{
     hr:not([size]) {
         height: 1px;
         margin-left: -3rem;
+    }
+    /* Quienes somos texto */
+    .text{
+        margin-left: 3rem;
+        font-size: 2rem;
+        text-align: justify;
+    }
+    /* Nuestro equipo */
+    .img-carruselFade{
+        object-fit:fill;
     }
 }
 

@@ -5,10 +5,8 @@
     height: 95vh;
     object-fit:cover;
 }
+
 .section__text{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     margin-top: 2rem;
 }
 
@@ -28,4 +26,27 @@
     margin-top: 2rem;
     margin-left: 10.0625rem;
     margin-right: 10.0625rem;
+}
+@media (min-width: 576px) and (max-width: 768px){
+    .section__text{
+        
+        .tituloC{
+            margin: 0;
+            padding: 1rem;
+            margin-top: -2rem;
+            margin-left: 2.0625rem;
+            margin-right: 4.0625rem;
+            font-size: 2.5rem;
+
+        }
+        .textC{
+            margin: 0;
+            padding: 1rem;
+            margin-left: 2.0625rem;
+            margin-right: 4.0625rem;
+            margin-top: 1rem;
+            font-size: 1rem;
+        }
+    }
+
 }
