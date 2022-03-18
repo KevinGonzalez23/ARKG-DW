@@ -6,23 +6,34 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
+
         .descripcionFooter{
             display: flex;
             flex-flow: column wrap;
             width: 50%;
-        }
-        .descripcionFooter a{
-            display: flex;
-            justify-content: flex-start;
-            margin-top: 2rem;
-            height: 12.5rem;
-            width: 12.5rem;
-        }
-        .descripcionFooter .footer__text{
-            display: inline-block;
-            margin: 2rem;
-            font-size: 1.25rem;
-            letter-spacing: 0.125rem;
+            & .footer__logo{
+                display: flex;
+                justify-content: flex-start;
+                height: 8.5rem;
+                width: 8.5rem;
+                padding: 1rem;
+            }
+            & a{
+                display: flex;
+                justify-content: flex-start;
+                margin-top: 2rem;
+                height: 4.5rem;
+                width: 12.5rem;
+            }
+            & .footer__text{
+                display: inline-block;
+                margin: 2rem;
+                margin-top: 4rem;
+                font-size: 1rem;
+                & .text__description{
+                    margin-bottom: 0.2rem;
+                }
+            }
         }
     }
     & .redes{
@@ -31,6 +42,7 @@
         flex-flow: row wrap;
         align-items: center;
         justify-content: flex-end;
+        margin-top: 2rem;
     }
     
     & .text__centrado{
