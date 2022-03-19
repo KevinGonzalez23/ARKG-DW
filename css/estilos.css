@@ -193,7 +193,7 @@
     font-size: 1.875rem;
 }
 
-.hero__trabajemosJuntos3{
+.hero__trabajemosJuntos3 {
     text-decoration: none;
     font-weight: bold;
     color:white;
@@ -381,7 +381,10 @@ form{
     width: 12.5rem;
     font-size: 1.6rem;
 }
-
+.btn-primary {
+    background-color: rgb(156,154,149);
+    border-color: #0dcaf0;
+}
 .hero__trabajemosJuntos1{
     font-size: 3.125rem;
     font-family: 'Montserrat', serif;
@@ -505,11 +508,15 @@ form{
 /* MEDIA QUERIES */
 
 /* Mobile S-M-L*/
-@media (min-width:320px) and (max-width: 425px){
+@media (min-width:320px) and (max-width: 768px){
     /* Logo */
     .header__logo {
         height: 5.5rem;
         width: 5.5rem;
+    }
+    /* nav */
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 1rem;
     }
     /* Titulo principal */
     .hero__text1 h1 {
@@ -660,10 +667,92 @@ form{
 }
 
 /* TABLET */
+@media (min-width:1024px) and (max-width: 1440px){
+    /* Titulo principal */
+    .hero__text1 h1 {
+        font-size: 3rem;
+        text-align: center;
+        margin-left: 3.0625rem;
+        margin-right: 3.0625rem;
+    }
+    /* Trabajos Recientes */
+    .p1{
+        font-size: 2rem;
+        margin-left: 2.0625rem;
+    }
 
-@media (min-width: 768px) and (max-width: 1024px){
-   
+    .p2 {
+        font-size: 1.25rem; 
+        margin-left: 2.0625rem;         
+    }
+    /* Grids de proyectos y botones */
+    .contenedorImagenes{
+        justify-items: center;
+        margin: auto;
+        margin-right: 2.5rem;
+    } 
+    .card-body {
+        padding: 1rem;
+        margin-left: -1rem;
+    }
+    /* Trabajemos juntos */
+    .hero__trabajemosJuntos {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-start;
+        height: auto;
+    }
+    
+    .trabajemosJuntos__titulo {
+        padding: 0;
+        margin: 3rem 2rem 2rem 3rem;
+        font-size: 2rem;
+    }
+
+    .hero__trabajemosJuntos p {
+        font-size: 1.25rem;
+        padding: 0;
+        margin: 3rem 2rem 2rem 3rem;
+    }
+    
+    .hero__trabajemosJuntos3 {
+        font-size: 1.25rem;
+        margin-bottom: 3rem;
+        margin: 3rem 2rem 2rem 3rem;
+    }
+    /* Contacto */
+    .contenedorGeneralC {
+        margin-top: 0; 
+    }
+    .cont__derecha {
+        margin-left: 2.4375rem;
+    }
+    .hero__trabajemosJuntos1 {
+        font-size: 2.125rem;
+    }
+    .hero__trabajemosJuntos2 {
+        font-size: 1.225rem;
+    }
+    .description {
+        font-size: 1.225rem;
+    }
+    .derecha__redes{
+        height: 4.25rem;
+        width: 4.25rem;
+        margin-right: 1rem;
+    }
+    .cont__izquierda{
+        margin-top: 8rem;
+    }
+    form{
+        padding: 0 1rem 0 1rem;
+        margin-bottom: 4rem;
+    }
+    .form-control{
+        font-size: 1.5rem;
+    }
 }
+
 
 
 
