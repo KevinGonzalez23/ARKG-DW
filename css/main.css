@@ -223,9 +223,6 @@ footer {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
-  .section__text {
-    /* Proyectos */
-  }
   .section__text .tituloC {
     margin-left: 1.0625rem;
     font-size: 2.5rem;

@@ -550,28 +550,26 @@ form{
     .hero__trabajemosJuntos {
         display: flex;
         flex-flow: column wrap;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: flex-end;
+        align-items: flex-start;
         height: auto;
     }
     
     .trabajemosJuntos__titulo {
-        padding: 1rem;
-        margin: 1rem 6rem 0rem -3rem;;
+        padding: 0;
+        margin: 3rem 2rem 2rem 3rem;
         font-size: 1.5rem;
     }
 
     .hero__trabajemosJuntos p {
-        padding: 1rem;
-        margin: 1rem 1rem 1rem 0rem;
         font-size: 0.9rem;
+        padding: 0;
+        margin: 3rem 2rem 2rem 3rem;
     }
     
     .hero__trabajemosJuntos3 {
         font-size: 1rem;
         margin-bottom: 3rem;
-        margin: 1rem 10.5rem 2rem 0rem;
+        margin: 3rem 2rem 2rem 3rem;
     }
 
     /* Footer */
