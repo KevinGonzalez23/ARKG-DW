@@ -22,12 +22,30 @@ nav {
           box-shadow: 0 1px 20px rgba(61, 58, 58, 0.356);
 }
 
+.navbar-expand-lg .navbar-collapse {
+  margin-right: 2rem;
+}
+
 .navbar-light .navbar-nav .nav-link {
   font-size: 1.25rem;
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
   font-size: 1.25rem;
+}
+
+/* MEDIA QUERIES */
+/* Mobile S-M-L*/
+@media (min-width: 320px) and (max-width: 425px) {
+  .header__logo {
+    height: 5.5em;
+    width: 5.5em;
+  }
+}
+
+footer {
+  -webkit-box-shadow: 0 1px 7px 1px #413f3f;
+          box-shadow: 0 1px 7px 1px #413f3f;
 }
 
 .contenedorFooter {
@@ -38,6 +56,7 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
+  margin-top: 1rem;
 }
 
 .contenedorFooter .arriba {
@@ -127,6 +146,44 @@ nav {
   font-size: 1.25rem;
 }
 
+@media (min-width: 320px) and (max-width: 425px) {
+  .contenedorFooter {
+    -webkit-box-shadow: 0 1px 7px 1px #413f3f;
+            box-shadow: 0 1px 7px 1px #413f3f;
+  }
+  .contenedorFooter .footer__logo {
+    height: 8.25rem;
+    width: 8.25rem;
+    margin: -1rem;
+  }
+  .contenedorFooter .descripcionFooter .footer__text {
+    font-size: 0.8rem;
+    margin: 1rem;
+    margin-top: 3rem;
+  }
+  .contenedorFooter .redes {
+    padding: 1rem;
+    margin-top: -4rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contenedorFooter .redes img {
+    height: 3.25rem;
+    width: 3.25rem;
+  }
+  .contenedorFooter .text__centrado {
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+}
+
 .row {
   --bs-gutter-x: 0;
 }
@@ -159,22 +216,25 @@ nav {
   margin-right: 10.0625rem;
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 425px) {
+  .cambio {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .section__text {
+    /* Proyectos */
+  }
   .section__text .tituloC {
-    margin: 0;
-    padding: 1rem;
-    margin-top: -2rem;
-    margin-left: 2.0625rem;
-    margin-right: 4.0625rem;
+    margin-left: 1.0625rem;
     font-size: 2.5rem;
+    margin-right: 0;
   }
   .section__text .textC {
-    margin: 0;
-    padding: 1rem;
-    margin-left: 2.0625rem;
-    margin-right: 4.0625rem;
-    margin-top: 1rem;
-    font-size: 1rem;
+    margin-left: 1.0625rem;
+    font-size: 0.9rem;
+    margin-right: 0;
   }
 }
 

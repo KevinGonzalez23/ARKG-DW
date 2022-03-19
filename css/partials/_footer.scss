@@ -1,7 +1,10 @@
-
+footer{
+    box-shadow: 0 1px 7px 1px rgb(65, 63, 63);
+}
 .contenedorFooter{
     display: flex;
     flex-flow: column wrap;
+    margin-top: 1rem;
     .arriba{
         display: flex;
         flex-flow: row wrap;
@@ -50,6 +53,36 @@
         justify-content: center;
         font-size: 1.25rem;
     }
+}
+@media (min-width: 320px) and (max-width: 425px){
+    .contenedorFooter{
+        box-shadow: 0 1px 7px 1px rgb(65, 63, 63);
+        & .footer__logo {
+            height: 8.25rem;
+            width: 8.25rem;
+            margin: -1rem;
+        }
+        & .descripcionFooter .footer__text {
+            font-size: 0.8rem;
+            margin: 1rem;
+            margin-top: 3rem;
+        }
+        & .redes {
+            padding: 1rem;
+            margin-top: -4rem;
+            flex-direction: column;
+            align-content: flex-end;
+            justify-content: center;
+        }
+        & .redes img {
+            height: 3.25rem;
+            width: 3.25rem;
+        }
+        & .text__centrado {
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+    }  
 }
 
 

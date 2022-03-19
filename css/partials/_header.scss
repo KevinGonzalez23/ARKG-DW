@@ -11,7 +11,9 @@
 nav{
     margin-bottom: 1rem;
     box-shadow: 0 1px 20px rgba(61, 58, 58, 0.356);
-   
+}
+.navbar-expand-lg .navbar-collapse {
+    margin-right: 2rem;
 }
 .navbar-light .navbar-nav .nav-link {
     font-size: 1.25rem;
@@ -20,4 +22,14 @@ nav{
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     font-size: 1.25rem;
     
+}
+
+/* MEDIA QUERIES */
+
+/* Mobile S-M-L*/
+@media (min-width: 320px) and (max-width: 425px){
+    .header__logo {
+        height: 5.5em;
+        width: 5.5em;
+    }
 }

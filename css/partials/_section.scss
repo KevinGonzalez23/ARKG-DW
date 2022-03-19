@@ -27,25 +27,22 @@
     margin-left: 10.0625rem;
     margin-right: 10.0625rem;
 }
-@media (min-width: 576px) and (max-width: 768px){
+@media (min-width: 320px) and (max-width: 425px){
+    .cambio{
+        flex-direction: column-reverse;
+    }
     .section__text{
-        
-        .tituloC{
-            margin: 0;
-            padding: 1rem;
-            margin-top: -2rem;
-            margin-left: 2.0625rem;
-            margin-right: 4.0625rem;
+        /* Proyectos */
+        & .tituloC {
+            margin-left: 1.0625rem;
             font-size: 2.5rem;
-
+            margin-right: 0;
         }
+        
         .textC{
-            margin: 0;
-            padding: 1rem;
-            margin-left: 2.0625rem;
-            margin-right: 4.0625rem;
-            margin-top: 1rem;
-            font-size: 1rem;
+            margin-left: 1.0625rem;
+            font-size: 0.9rem;
+            margin-right: 0;
         }
     }
 
