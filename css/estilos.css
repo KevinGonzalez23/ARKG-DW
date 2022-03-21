@@ -587,7 +587,7 @@ form{
     }
     .descripcionFooter .footer__text {
         font-size: 0.8rem;
-        margin: 1rem;
+        margin: 1.2rem;
         margin-top: 3rem;
     }
     .contenedorFooter .redes {
@@ -668,6 +668,11 @@ form{
 
 /* TABLET */
 @media (min-width:1024px) and (max-width: 1440px){
+    /* Logo */
+    .header__logo {
+        height: 10.5rem;
+        width: 10.5rem;
+    }
     /* Titulo principal */
     .hero__text1 h1 {
         font-size: 3rem;
