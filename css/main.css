@@ -12,8 +12,8 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  height: 12.5rem;
-  width: 12.5rem;
+  height: 10.5rem;
+  width: 10.5rem;
 }
 
 nav {
@@ -210,10 +210,10 @@ footer {
 
 .textC {
   font-size: 1.875rem;
-  padding: 1rem;
-  margin-top: 2rem;
+  padding: 0;
+  margin-top: 0;
   margin-left: 10.0625rem;
-  margin-right: 10.0625rem;
+  margin-right: 8.0625rem;
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
