@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Montserrat', serif;
 }
 
 .header__logo {
@@ -77,7 +78,6 @@
     margin-bottom: 3rem;
     font-size: 4.5rem;
     font-weight: 500;
-    font-family: monserrat, serif;
 }
 /* imagenes carrousel */
 .img-carrusel{
@@ -94,7 +94,6 @@
 }
 
 .p1{
-    font-family: 'Montserrat', serif;
     margin: 3rem;
     padding: 1rem;
     margin-left: 10.0625rem;
@@ -171,7 +170,6 @@
     background: black;
     margin-top: 2rem;
     height: 40rem;
-    font-family:'Montserrat', serif;
 }
 
 .trabajemosJuntos__titulo{
@@ -182,24 +180,20 @@
     margin-right: 10.0625rem;
     margin-top: 20rem;
     padding-top: 4.375rem;
-    font-family:'Montserrat', serif;
 }
 
 .hero__trabajemosJuntos p{
-    
     color:white;
     margin-left: 10.9375rem;
     margin-right: 10.0625rem;
     margin-top: 3.125rem;
     margin-bottom: 6.25rem;
     font-size: 1.5rem;
-    font-family:'Montserrat', serif;
 }
 
 .hero__trabajemosJuntos3 {
     text-decoration: none;
     font-weight: bold;
-    font-family:'Montserrat', serif;
     color:white;
     margin-left: 10.9375rem;
     margin-right: 10.0625rem;
@@ -290,13 +284,11 @@ footer{
     margin-left: 10.4375rem;
     font-size: 2.5rem;
     font-weight: bold;
-    font-family: monserrat,serif;
 }
 
 .contenedorTexto{
     width: 100%;
     font-size: 1.5625rem;
-    font-family: monserrat,serif;
     margin-right: 6rem;
     letter-spacing: 0.125rem;
 }
@@ -308,19 +300,16 @@ footer{
 
 /* Nuestro equipo */
 .nuestra-gente h1{
-    font-family:'Montserrat', serif;
     font-size: 3.5rem;
     margin: 2rem;
     text-align: center;
 }
 .nuestra-gente h3{
-    font-family:'Montserrat', serif;
     font-size: 2.5rem;
     margin: 2rem;
     text-align: center;
 }
 .nuestra-gente h4{
-    font-family:'Montserrat', serif;
     font-size: 1.5rem;
     margin: 2rem;
     text-align: center;
@@ -393,7 +382,6 @@ footer{
 .caption p{
     font-size: 15px;
     color: #0c52a1;
-    font-family: sans-serif;
     margin: 2px 0 9px 0;
 }
 .caption .social-links a{
@@ -483,17 +471,13 @@ form{
 .form-control{
     font-size: 2rem;
 }
- input:focus {
-    width: 12.5rem;
-    font-size: 1.6rem;
-}
+
 .btn-primary {
     background-color: rgb(156,154,149);
     border-color: #0dcaf0;
 }
 .hero__trabajemosJuntos1{
     font-size: 3.125rem;
-    font-family: 'Montserrat', serif;
     font-weight: bold;
 }
 
