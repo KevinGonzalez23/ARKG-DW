@@ -1,16 +1,29 @@
-/* voy a usar mas flex y grid para que me quede como los wireframes */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family:'Montserrat', serif;
 }
-
+/* boton vuelve al inicio */
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #0dcaf070;
+    bottom: 40px;
+    right: 10px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #f8f9fa;
+    font-size: 22px;
+}
+  /* header*/
 .header__logo {
     display: flex;
     justify-content: flex-start;
-    height: 12.5rem;
-    width: 12.5rem;
+    height: 6.5rem;
+    width: 6.5rem;
 }
 .bg-light {
     box-shadow: 0 1px 20px hsl(0deg 4% 15% / 35%);
@@ -27,48 +40,6 @@
     font-size: 1.25rem;
     
 }
-/* header{
-    padding: 1rem 0.5rem; 
-    display: flex; 
-}
-
-
-
-.header__navegacion{
-	display: flex;
-    width: 100%;
-	margin: 1.875rem auto;
-    letter-spacing: 2px;
-    font-family: 'Montserrat', serif;
-    align-items: center;
-    justify-content: flex-end;
-    font-size: 1.25rem;
-    
-}
-
-.nav__menu ul{
-    display: flex;
-    list-style: none;
-} 
-
-.nav__menu > li{
-    position: relative;
-	display: inline-block;
-    
-}
-
-.nav__menu > li > a{
-    display: flex;
-	padding: 0.9375rem 1.25rem;
-	color: #226d70;
-	text-decoration: none;
-    font-weight: bold;
-}
-
-.nav__menu li a:hover{
-	color: black;
-}
- */
 /* Texto grande */
 .hero__text1 h1{
     padding: 1rem 0.5rem; 
@@ -76,12 +47,13 @@
     margin-right: 10.0625rem;
     margin-top: 2.75rem;
     margin-bottom: 3rem;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-weight: 500;
+    text-align: center;
 }
 /* imagenes carrousel */
 .img-carrusel{
-    height: 95vh;
+    height: 86vh;
     object-fit:cover;
 }
 
@@ -103,7 +75,7 @@
 }
 
 .p2 {
-    font-size: 1.875rem;  
+    font-size: 1.5rem;  
     padding: 1rem;
     margin-left: 10.0625rem;
     margin-right: 10.0625rem;
@@ -168,8 +140,11 @@
 
 .hero__trabajemosJuntos{
     background: black;
-    margin-top: 2rem;
-    height: 40rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    height: auto;
+
 }
 
 .trabajemosJuntos__titulo{
@@ -177,8 +152,6 @@
     font-size: 2.5rem;
     font-weight: bold;
     margin-left: 10.9375rem;
-    margin-right: 10.0625rem;
-    margin-top: 20rem;
     padding-top: 4.375rem;
 }
 
@@ -187,10 +160,12 @@
     margin-left: 10.9375rem;
     margin-right: 10.0625rem;
     margin-top: 3.125rem;
-    margin-bottom: 6.25rem;
+    margin-bottom: 4.25rem;
     font-size: 1.5rem;
 }
-
+.botonContacto{
+    padding-bottom: 4.375rem;
+}
 .hero__trabajemosJuntos3 {
     text-decoration: none;
     font-weight: bold;
@@ -198,10 +173,9 @@
     margin-left: 10.9375rem;
     margin-right: 10.0625rem;
     padding: 1.5625rem;
-    font-size: 1.875rem;
+    font-size: 1.5rem;
     background-color: rgb(156, 154, 149);
     border-radius: 1.25rem;
-    
 }
 .hero__trabajemosJuntos3:hover{
     color: rgb(0, 0, 0);
@@ -393,38 +367,7 @@ footer{
 .social-links a:hover{
     color: #0c52a1;
 }
-/* .img-carruselFade{
-    height: 100vh;
-    object-fit:cover;
-}
 
-.contenedorGeneral{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    justify-items: center;
-    align-items: center;
-    grid-column-gap: 2.5rem;
-    margin-top: 3.125rem;
-}
-
-.contenedorPersona1{
-    grid-column: 2;
-}
-
-.contenedorPersona1 img{
-    height: 28.1875rem;
-    width: 34.625rem;
-}
-
-.Persona__titulo{
-    margin-top: 0.625rem;
-    margin-bottom: 1.25rem;
-    font-size: 1.875rem;
-}
-
-.Persona__texto{
-    font-size: 1.25rem;
-} */
 /* Prensa */
 .img-fluid{
     height: 40rem;
@@ -462,9 +405,14 @@ footer{
 }
 
 .cont__derecha{
-    margin-left: 10.4375rem;
+    margin-left: 5.4375rem;
 }
-
+#inputnombre{
+    margin-right: 1rem;
+}
+.cont__izquierda{
+    margin-right: 5.4375rem;
+}
 form{
     grid-column: 3;
 }
@@ -477,19 +425,21 @@ form{
     border-color: #0dcaf0;
 }
 .hero__trabajemosJuntos1{
-    font-size: 3.125rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
 .hero__trabajemosJuntos2{
-    font-size: 1.5625rem;
+    font-size: 1.5rem;
     font-weight: lighter;
 }
 
 .description{
-    font-size: 1.5625rem;
+    font-size: 1.5rem;
 }
-
+.derecha__redes{
+    margin-left: -1rem;
+}
 /* MEDIA QUERIES */
 
 /* Mobile S-M-L*/
@@ -548,22 +498,26 @@ form{
     
     .trabajemosJuntos__titulo {
         padding: 0;
-        margin: 3rem 2rem 2rem 3rem;
+        margin: 2rem 2rem 2rem 2rem;
         font-size: 1.5rem;
     }
 
     .hero__trabajemosJuntos p {
         font-size: 0.9rem;
         padding: 0;
-        margin: 3rem 2rem 2rem 3rem;
+        margin: 0rem 2rem 4rem 2rem;
+        text-align: justify;
     }
     
     .hero__trabajemosJuntos3 {
         font-size: 1rem;
         margin-bottom: 3rem;
-        margin: 3rem 2rem 2rem 3rem;
+        margin: 2rem 2rem 2rem 2rem;
     }
-
+    /* Boton Arriba */
+    .gotopbtn {
+        right: 16px;
+    }
     /* Footer */
     .footer__logo {
         height: 8.25rem;
@@ -705,7 +659,7 @@ form{
     .hero__trabajemosJuntos p {
         font-size: 1.25rem;
         padding: 0;
-        margin: 3rem 2rem 2rem 3rem;
+        margin: 1rem 2rem 4rem 3rem;
     }
     
     .hero__trabajemosJuntos3 {
