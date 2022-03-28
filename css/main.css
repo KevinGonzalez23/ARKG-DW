@@ -35,7 +35,6 @@ nav {
 }
 
 /* MEDIA QUERIES */
-/* Mobile S-M-L*/
 @media (min-width: 320px) and (max-width: 425px) {
   .header__logo {
     height: 5.5em;
@@ -115,6 +114,7 @@ footer {
   font-size: 15px;
 }
 
+/* MEDIA QUERIES */
 @media (min-width: 320px) and (max-width: 425px) {
   .pie-pagina .grupo-1 {
     width: 90%;
@@ -201,6 +201,7 @@ section {
   margin-bottom: 1rem;
 }
 
+/* MEDIA QUERIES */
 @media (min-width: 320px) and (max-width: 425px) {
   .gotopbtn {
     right: 16px;
@@ -266,7 +267,6 @@ section {
     font-size: 1.5rem;
   }
   .section__text {
-    /*Proyectos */
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-align: center;

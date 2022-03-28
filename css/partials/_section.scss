@@ -38,6 +38,7 @@ section{
     margin-bottom:1rem;
 }
 
+/* MEDIA QUERIES */
 
 @media (min-width: 320px) and (max-width: 425px){
     .gotopbtn {
@@ -92,7 +93,6 @@ section{
         font-size: 1.5rem;
     }
     .section__text{
-         /*Proyectos */
         flex-wrap: wrap;
         align-items: center;
         & .textC {

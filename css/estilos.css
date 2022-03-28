@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family:'Montserrat', serif;
 }
+
 /* boton vuelve al inicio */
+
 .gotopbtn{
     position: fixed;
     width: 50px;
@@ -18,7 +20,9 @@
     color: #f8f9fa;
     font-size: 22px;
 }
-  /* header*/
+
+/* header*/
+
 .header__logo {
     display: flex;
     justify-content: flex-start;
@@ -28,7 +32,6 @@
 .bg-light {
     box-shadow: 0 1px 20px hsl(0deg 4% 15% / 35%);
 }
-
 .navbar-expand-lg .navbar-collapse {
     margin-right: 2rem;
 }
@@ -40,7 +43,9 @@
     font-size: 1.25rem;
     
 }
+
 /* Texto grande */
+
 .hero__text1 h1{
     padding: 1rem 0.5rem; 
     margin-left: 10.0625rem;
@@ -51,20 +56,21 @@
     font-weight: 500;
     text-align: center;
 }
+
 /* imagenes carrousel */
+
 .img-carrusel{
     height: 86vh;
     object-fit:cover;
 }
 
-
 /* titulo y texto de trabajo */
+
 .hero__text2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 .p1{
     margin: 3rem;
     padding: 1rem;
@@ -73,7 +79,6 @@
     font-size: 2.5rem ;
     font-weight: bold;
 }
-
 .p2 {
     font-size: 1.5rem;  
     padding: 1rem;
@@ -87,27 +92,14 @@
 .contenedorImagenes{
     margin-left: 8.0625rem;
 }
-
-
-/* .contenedorProyectos {
-    width: 90%;
-    margin-left: 8.0625rem;
-    padding: 5rem 0;
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    gap: 6.25rem;
-}
- */
 .card{
     border: none;
     margin-left: 2rem;
 }
-
 .row{
     margin-right: 0;
     --bs-gutter-x: 0;
 }
-
 .card img{
     border-radius: 1.25rem;
     height: 39.0625rem;
@@ -116,17 +108,14 @@
     background-size: cover;
     background-position: center center;
 }
-
 .card .titulo{
     margin-top: 0.625rem;
     font-size: 1.875rem;
 }
-
 .card-body button{
     background-color: rgb(156, 154, 149);
     border-radius: 1.25rem;
 }
-
 .card-body a{
     text-decoration: none;
     color: #f8f9fa;
@@ -233,56 +222,6 @@
 .pie-pagina .grupo-2 small{
     font-size: 15px;
 }
-/* .contenedorFooter{
-    display: flex;
-    flex-flow: column wrap;
-}
-
-.arriba{
-    display: flex;
-    flex-flow: row wrap;
-    flex-wrap: nowrap;
-}
-
-.descripcionFooter{
-    display: flex;
-    flex-flow: column wrap;
-    width: 50%;
-}
-.descripcionFooter a{
-    width: 8.5rem;
-}
-.descripcionFooter p{
-    padding: 1rem;
-    margin-left: 1.2rem;
-}
-.footer__logo{
-    height: 8.5rem;
-    padding: 1rem;
-}
-
-.footer__text{
-    display: inline-block;
-    margin: 2rem;
-    margin-top: 4rem;
-    font-size: 1rem;
-}
-.contenedorFooter .redes{
-    display: flex;
-    width: 50%;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.contenedorFooter .text__centrado{
-    display: flex;
-    justify-content: center;
-    font-size: 1.25rem;
-    font-weight: bold;
-}
-.text__description{
-    margin-bottom: 0.2rem;
-} */
 
 /* Quienes Somos */
 
@@ -290,11 +229,9 @@
     display: flex;
     margin-top: 2.875rem;
 }
-
 .text{
     margin-bottom: 2.5rem;
 }
-
 .contenedorTitulo{
     width: 100%;
     flex: 50%;
@@ -302,18 +239,15 @@
     font-size: 2.5rem;
     font-weight: bold;
 }
-
 .contenedorTexto{
     width: 100%;
     font-size: 1.5625rem;
     margin-right: 6rem;
     letter-spacing: 0.125rem;
 }
-
 .contTexto{
     margin-bottom: 2.5rem;
 }
-
 
 /* Nuestro equipo */
 .nuestra-gente h1{
@@ -337,7 +271,6 @@
 .gente1{
     margin-top: 5rem;
 }
-
 .col-equipo{
     flex: 1 0 0%;
     display: grid;
@@ -345,7 +278,6 @@
     align-items: center;
     justify-content: center;
 }
-
 .profile-card{
     position: relative;
     font-family: sans-serif;
@@ -369,7 +301,6 @@
     transition: .6s;
     z-index: 99;
 }
-
 .profile-img img{
     width: 100%;
     border-radius: 50%;
@@ -427,7 +358,6 @@
 }
 
 .img-fluid  p{
-    
     color:white;
     margin-left: 10.9375rem;
     margin-right: 10.0625rem;
@@ -446,7 +376,6 @@
     grid-column-gap: 2.5rem;
     margin-top: 3.125rem;
 }
-
 .cont__derecha{
     margin-left: 5.4375rem;
 }
@@ -462,7 +391,6 @@ form{
 .form-control{
     font-size: 2rem;
 }
-
 .btn-primary {
     background-color: rgb(156,154,149);
     border-color: #0dcaf0;
@@ -471,21 +399,19 @@ form{
     font-size: 2.5rem;
     font-weight: bold;
 }
-
 .hero__trabajemosJuntos2{
     font-size: 1.5rem;
     font-weight: lighter;
 }
-
 .description{
     font-size: 1.5rem;
 }
 .derecha__redes{
     margin-left: -1rem;
 }
+
 /* MEDIA QUERIES */
 
-/* Mobile S-M-L*/
 @media (min-width:320px) and (max-width: 768px){
     /* Logo */
     .header__logo {
@@ -585,31 +511,6 @@ form{
     .pie-pagina .grupo-1 .box .nosotrosFooter {
         margin-left: -3rem;
     }
-    /* .footer__logo {
-        height: 8.25rem;
-        width: 8.25rem;
-        margin: -1rem;
-    }
-    .descripcionFooter .footer__text {
-        font-size: 0.8rem;
-        margin: 1.2rem;
-        margin-top: 3rem;
-    }
-    .contenedorFooter .redes {
-        padding: 1rem;
-        margin-top: -4rem;
-        flex-direction: column;
-        align-content: flex-end;
-        justify-content: center;
-    }
-    .redes img {
-        height: 3.25rem;
-        width: 3.25rem;
-    }
-    .contenedorFooter .text__centrado {
-        font-size: 0.8rem;
-        font-weight: bold;
-    } */
     /* Quienes Somos y Prensa*/
     .contenedorText {
         display: flex;
@@ -673,8 +574,8 @@ form{
     }
     .cont__izquierda{
         margin-top: 8rem;
+        margin-right: 0.4375rem;
     }
-
     form{
         padding: 0 1rem 0 1rem;
     }
@@ -683,7 +584,6 @@ form{
     }
 }
 
-/* TABLET */
 @media (min-width:1024px) and (max-width: 1440px){
     /* Logo */
     .header__logo {
@@ -774,9 +674,3 @@ form{
         font-size: 1.5rem;
     }
 }
-
-
-
-
-
-
