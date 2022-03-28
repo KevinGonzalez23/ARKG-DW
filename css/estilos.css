@@ -182,10 +182,58 @@
 }
 
 /* FOOTER */
-footer{
-    box-shadow: 0 1px 7px 1px #413f3f;
+
+.pie-pagina{
+    width: 100%;
 }
-.contenedorFooter{
+.pie-pagina .grupo-1{
+    width: 100%;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    height: 6.5rem;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: rgb(0, 0, 0);
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    font-size: 0.9rem;
+    margin-bottom: 0;  
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+/* .contenedorFooter{
     display: flex;
     flex-flow: column wrap;
 }
@@ -234,7 +282,7 @@ footer{
 }
 .text__description{
     margin-bottom: 0.2rem;
-}
+} */
 
 /* Quienes Somos */
 
@@ -514,7 +562,30 @@ form{
         right: 16px;
     }
     /* Footer */
-    .footer__logo {
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+    .pie-pagina .grupo-1 .box figure{
+        justify-content: flex-start;
+        height: 5rem;
+        width: 5rem;
+    }
+    .pie-pagina .grupo-1 .box figure img{
+        height: 5.5rem;
+    }
+    .pie-pagina .grupo-1 .box .red-social{
+        justify-content: flex-start;
+    }
+    .pie-pagina .grupo-1 .box p {
+        margin-left: -3rem;
+    }
+    .pie-pagina .grupo-1 .box .nosotrosFooter {
+        margin-left: -3rem;
+    }
+    /* .footer__logo {
         height: 8.25rem;
         width: 8.25rem;
         margin: -1rem;
@@ -538,7 +609,7 @@ form{
     .contenedorFooter .text__centrado {
         font-size: 0.8rem;
         font-weight: bold;
-    }
+    } */
     /* Quienes Somos y Prensa*/
     .contenedorText {
         display: flex;
@@ -555,8 +626,17 @@ form{
         letter-spacing: 0;
     }
     /* Nuestro Equipo */
+    .nuestra-gente h1 {
+        font-size: 2rem;
+    }
+    .nuestra-gente h4 {
+        font-size: 0.9rem;
+    }
+    .nuestra-gente h3 {
+        font-size: 1.25rem;
+    }
     .gente1{
-        margin-top: 0ññ;
+        margin-top: 0;
     }
     .col-equipo {
         margin-top: 5rem;
@@ -607,8 +687,8 @@ form{
 @media (min-width:1024px) and (max-width: 1440px){
     /* Logo */
     .header__logo {
-        height: 10.5rem;
-        width: 10.5rem;
+        height: 6.5rem;
+        width: 6.5rem;
     }
     /* Titulo principal */
     .hero__text1 h1 {
